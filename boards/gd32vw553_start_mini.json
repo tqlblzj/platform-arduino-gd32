@@ -1,0 +1,41 @@
+{
+  "build": {
+    "board": "GD32VW553_START_MINI",
+    "core": "gd32w",
+    "cpu": "riscv32",
+    "f_cpu": "160000000L",
+    "mcu": "gd32vw553",
+    "series": "GD32VW553",
+    "product_line": "GD32VW553_CL",
+    "variant": "GD32VW553_START_MINI",
+    "compiler_prefix": "riscv-nuclei-elf",
+    "extra_flags": "-DARDUINO_GD32VW553_START_MINI",
+    "optimization": "-Og",
+    "sdk_version": "1.0.0"
+  },
+  "debug": {
+    "jlink_device": "GD32VW553HMQ7",
+    "svd_path": "GD32VW553x.svd",
+    "openocd_target": "gd32vw553",
+    "openocd_chipid": "0x00005533"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "GD32VW553 START MINI",
+  "upload": {
+    "maximum_ram_size": 294400,
+    "maximum_size": 4194304,
+    "flash_offset": "0x08000000",
+    "protocol": "gdlink",
+    "protocols": [
+      "jlink",
+      "gdlink",
+      "serial"
+    ],
+    "require_upload_port": true,
+    "speed": 1500000
+  },
+  "url": "https://www.gigadevice.com/",
+  "vendor": "GigaDevice"
+}

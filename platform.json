@@ -1,0 +1,27 @@
+{
+  "name": "gd32",
+  "title": "Gigadevice-mcu",
+  "description": "Gigadevice mcu",
+  "homepage": "https://www.gigadevice.com.cn/",
+  "license": "BSD-3-Clause",
+  "keywords": ["gd32", "gd32mcu"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/platformio/platform-myplatform.git"
+  },
+  "version": "1.0.0",
+  "frameworks": {
+    "arduino": {
+      "package": "framework-arduino-gd32w",
+      "script": "builder/frameworks/arduino.py"
+    }
+  },
+  "packages": {
+    "framework-arduino-gd32w": {
+      "type": "framework",
+      "optional": false,
+      "version": "1.0.0",
+      "url": "https://github.com/tqlblzj/arduino-gd32/releases/download/v1.0.0/framework-arduino-gd32w.zip"
+    }
+  }
+}
