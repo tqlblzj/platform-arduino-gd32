@@ -3,7 +3,7 @@
   "title": "Gigadevice-mcu",
   "description": "Gigadevice mcu",
   "homepage": "https://www.gigadevice.com.cn/",
-  "license": "LGPL-2.1-or-later",
+  "license": "Apache-2.0",
   "keywords": ["gd32", "gd32mcu"],
   "repository": {
     "type": "git",
