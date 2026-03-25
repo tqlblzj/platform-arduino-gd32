@@ -16,7 +16,7 @@ Clone the [platform-arduino-gd32](https://github.com/tqlblzj/platform-arduino-gd
 ```bash
 # PlatformIO default installation path is C:\Users\<username>\.platformio
 # Clone platform files to the following directory:
-git clone https://github.com/tqlblzj/platform-arduino-gd32.git C:\Users\<username>\.platformio\platforms\platform-gd32-arduino
+git clone https://github.com/tqlblzj/platform-arduino-gd32.git C:/Users/<username>/.platformio/platforms/platform-arduino-gd32
 ```
 
 After cloning, the `platform-gd32-arduino` directory structure is as follows:
