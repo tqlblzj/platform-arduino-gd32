@@ -91,3 +91,14 @@ void loop()
 ![Build and Upload](images/image-2.png)
 
 ![Serial Output](images/image-3.png)
+
+## Examples
+
+We have added several example projects in the `examples` directory to help you get started with GD32 Arduino development. These examples demonstrate various features and capabilities of the GD32 platform.
+
+For more comprehensive examples and library documentation, please refer to:
+```
+.platformio\packages\framework-arduino-gd32w\libraries
+```
+
+This directory contains a wide range of examples for different peripherals and functionalities provided by the GD32 Arduino framework.
