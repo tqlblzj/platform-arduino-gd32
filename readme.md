@@ -60,6 +60,7 @@ After completing the installation steps, you can create a PlatformIO project:
    - Click **Finish** to complete the creation
 
 ![Create Project](images/image.png)
+
 ![Select Board](images/image-1.png)
 
 ## Testing the Toolchain
@@ -88,4 +89,5 @@ void loop()
 3. **View Output**: After firmware is successfully flashed, open the serial monitor (baud rate set to 115200) to see the "hello arduino" output
 
 ![Build and Upload](images/image-2.png)
+
 ![Serial Output](images/image-3.png)
